@@ -17,15 +17,15 @@ export class SubmitFeedbackUseCase {
     const { type, comment, screenshot } = request;
 
     if(!type) {
-      throw new Error('Type is required');
+      throw new Error('Tipo obrigatório');
     }
 
     if(!comment) {
-      throw new Error('Comment is required');
+      throw new Error('Comentário obrigatório');
     }
 
     if(screenshot && !screenshot.startsWith('data:image/png;base64')){
-      throw new Error('Invalid screenshot format');
+      throw new Error('Formato de imagem inválido');
     }
 
     await this.feedbacksRepository.create({
