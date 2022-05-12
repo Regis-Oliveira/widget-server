@@ -12,7 +12,6 @@ const transport = nodemailer.createTransport({
   }
 });
 
-
 export class NodemailerMailAdapter implements MailAdapter {
   async sendMail({ subject, variables, path }: SendMailData) {
     const templateFileContent = fs.readFileSync(path).toString("utf-8");
