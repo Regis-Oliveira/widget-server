@@ -7,7 +7,7 @@ import formData from 'form-data';
 const mailgun = new Mailgun(formData);
 const mg = mailgun.client({
 	username: 'api',
-	key: process.env.MAILGUN_KEY || '9848ae2dd356a3bb230f0190ad30c234-100b5c8d-f0127cb6',
+	key: process.env.MAILGUN_KEY || process.env.MAILGUN_ID || '',
 });
 
 export class MailgunMailAdapter implements MailAdapter {
