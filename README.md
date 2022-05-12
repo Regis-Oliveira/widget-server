@@ -21,14 +21,14 @@ This api is to save some feedbacks from a widget feedback component, created dur
 ## :rocket: Technologies
 
 - [ReactJs](https://reactjs.org)
-- [Prisma](https://axios-http.com/)
-- [NodeJS](https://axios-http.com/)
-- [Jest](https://axios-http.com/)
-- [Typescript](https://axios-http.com/)
-- [Postgres](https://axios-http.com/)
-- [Handlebars](https://axios-http.com/)
-- [Nodemailer](https://axios-http.com/)
-- [Mailgun](https://axios-http.com/)
+- [Prisma](https://www.prisma.io/)
+- [NodeJS](https://nodejs.org/en/)
+- [Jest](https://jestjs.io/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Postgres](https://www.postgresql.org/)
+- [Handlebars](https://handlebarsjs.com/)
+- [Nodemailer](https://nodemailer.com/about/)
+- [Mailgun](https://www.mailgun.com/)
 
 </br>
 
