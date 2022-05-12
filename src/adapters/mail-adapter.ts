@@ -1,6 +1,12 @@
+interface EmailFeedbackProps {
+  type: string;
+  comment: string;
+  screenshot: string;
+}
 export interface SendMailData {
   subject: string;
-  body: string;
+  variables: EmailFeedbackProps;
+  path: string;
 }
 
 export interface MailAdapter {
